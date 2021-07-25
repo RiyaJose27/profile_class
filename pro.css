@@ -129,6 +129,8 @@ nav ul {
 
 .card-header2 h1 {
     font-size: 20px;
+    position:absolute;
+    left: -80px;
 
 }
 
@@ -231,8 +233,8 @@ nav ul {
 
 
 .card-header3 img {
-    width: 36px;
-    height:30px;
+    width: 26px;
+    height:20px;
 }
 .card-header3 p {
     color: white;
@@ -248,9 +250,11 @@ nav ul {
 
 }
 .cardb a {
- width:20px;
- height:300px;
+ width:200px;
+ height:400px;
  position: absolute;
  left: 40px;
  margin-left:650px;
+ margin-top: 15px;
+
 }
