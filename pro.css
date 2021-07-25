@@ -237,3 +237,16 @@ nav ul {
 .card-header3 p {
     color: white;
 }
+
+
+.cardb {
+    min-height: 50px;
+    background-color:white;
+    border: 1px solid grey;
+    padding-bottom: 40px;
+    padding-left: 214px;
+
+}
+.cardb a {
+ text-align: center;
+}
