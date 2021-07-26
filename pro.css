@@ -151,9 +151,11 @@ padding: 10px;
 
 
 .card-body4 img{
-    vertical-align: middle;
+    padding-top: 10px;
+    vertical-align:middle;
     width: 46px;
     height:50px;
+    margin-left: 10px;
 }
 
 
