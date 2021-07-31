@@ -119,7 +119,12 @@ padding: 10px;
 }
 
 
-
+.circle {
+border-radius: 50%;
+background-color: white;
+color: black;
+padding: 10px;
+}
 
 
 
@@ -127,6 +132,7 @@ padding: 10px;
     
     border: 2px solid grey;
     margin-bottom: 20px;
+ 
 }
 
     .card-body3 {
@@ -147,6 +153,8 @@ padding: 10px;
 }
     .card-body3 {
     padding: 1.5em;
+    position: relative;
+
 }
 
 
@@ -165,6 +173,7 @@ padding: 10px;
     vertical-align:middle;
     width: 46px;
     height:50px;
+    display: flex;
 }
 
 
@@ -179,4 +188,20 @@ padding: 10px;
 }
 
 
-
+.but {
+    position: absolute;
+    left: 200px;
+    bottom: 120px;
+}
+.pic {
+        padding-top: 10px;
+        vertical-align:middle;
+        width: 46px;
+        height:50px;
+        margin-left: 10px;
+}
+.but1 {
+    position: absolute;
+    left: 200px;
+    bottom: 80px;
+}

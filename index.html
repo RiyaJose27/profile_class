@@ -33,7 +33,7 @@
                     <img class="user" src="./images/user-circle.png" alt="default">
                 </div>
                 <div class="card-body">
-                    <h2>Riya Jose</h2>
+                    <h2 id="nam">Jane Doe</h2>
                     <div class="profile"><br>
                         <p><img class="pin" src="./images/nav.png" alt="nav">Chicago</p>
                     </div><br>
@@ -41,7 +41,7 @@
                     <p>Master of shadows and the Internet!</p>
                     <div class="edit"><br>
                         <img class="gear" src="./images/gear.png" alt="gear">
-                        <a href="#">Edit profile</a>
+                        <a href="#" onclick="addTo()">Edit profile</a>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                     <h3>Education</h3>
                 </div>
                 <div class="card-body2">
-                    <p>Coding Dojo - Full Stack Development</p>
+                    <p>Coding Dojo - Fu ll Stack Development</p>
                     <p>Dec 2019 - Mar 2020</p>
                     <p>Triple black belt in python, MERN, and C#</p>
                 </div>
@@ -59,18 +59,20 @@
         <aside>
             <div class="card">
                 <div class="dark-header">
-                    <p><span class="circular">2</span> Connection Requests</p>
-                    
+                    <p><span id="he" class="circular">2</span> Connection Requests</p>
+
                 </div>
                 <div class="card-body3">
-                    <p><img src="./images/user-circle.png" alt="hello">Todd E</p>
+                    <p><img id="pic" src="./images/user-circle.png" alt="hello"> Todd E</p>
+                        <button class="but" onclick="hello()">X</button>
+                        <button class="but1" onclick="heo()">Y</button>
                     <p><img src="./images/user-circle.png" alt="use">Phil K</p>
                 </div>
             </div>
             <!-- your connection box -->
             <div class="card">
                 <div class="dark-header">
-                    <p><span class="circular">500+</span> Your connections</p>
+                    <p><span class="circle">500+</span> Your connections</p>
                 </div>
                 <div class="card-body4">
                     <p><img src="./images/user-circle.png" alt="Ad"> Adrien D</p><br>
@@ -84,5 +86,7 @@
             </div>
         </aside>
     </div>
+    <script src="prof.js"></script>
 </body>
+
 </html>
